@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "rootDir": "./source",
         "target": "ES5",
         "module": "system",
         "moduleResolution": "node",
@@ -8,8 +9,5 @@
         "experimentalDecorators": true,
         "removeComments": false,
         "noImplicitAny": false
-    },
-    "exclude": [
-        "node_modules"
-    ]
+    }
 }
